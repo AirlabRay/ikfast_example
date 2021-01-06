@@ -5,5 +5,5 @@ Build library(.so) for python by Makefile
 
 Command type on terminal:
 
-  cd ikfast_example_master
-  make
+cd ikfast_example_master
+make
