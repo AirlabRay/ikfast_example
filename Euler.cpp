@@ -57,8 +57,8 @@ double* fk_euler(double* joints)
 
     //Euler inverse
     Ry = IKasin(-1*eerot[6]);
-    Rx = IKatan2(eerot[7]/IKcos(Ry),eerot[8]/IKcos(Ry));
-    Rz = IKatan2(eerot[3]/IKcos(Ry),eerot[0]/IKcos(Ry));
+    Rx = IKatan2(eerot[7],eerot[8]);
+    Rz = IKatan2(eerot[3],eerot[0]);
     
     solutions[0] = eetrans[0];
     solutions[1] = eetrans[1];
