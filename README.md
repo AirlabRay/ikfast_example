@@ -1,9 +1,9 @@
 # ikfast_example
 Example for ikfast solver to euler fk and ik on python application
 
-build library(.so) for python by makefile
+Build library(.so) for python by Makefile
 
-command type:
+Command type on terminal:
 
   cd ikfast_example_master
   make
